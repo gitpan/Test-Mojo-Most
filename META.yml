@@ -22,9 +22,10 @@ requires:
   Test::Mojo::More: 0.05
   Test::Mojo::Session: 1.01
   Test::Mojo::Trim: 0.03
+  perl: 5.010001
 resources:
   bugtracker: https://github.com/leejo/test-mojo-most/issues
   homepage: https://metacpan.org/module/Test::Mojo::Most
   license: http://dev.perl.org/licenses/
   repository: https://github.com/leejo/test-mojo-most
-version: 0.03
+version: 0.04

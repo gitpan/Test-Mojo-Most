@@ -35,7 +35,8 @@
          "requires" : {
             "Test::Mojo::More" : "0.05",
             "Test::Mojo::Session" : "1.01",
-            "Test::Mojo::Trim" : "0.03"
+            "Test::Mojo::Trim" : "0.03",
+            "perl" : "5.010001"
          }
       }
    },
@@ -52,5 +53,5 @@
          "url" : "https://github.com/leejo/test-mojo-most"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
