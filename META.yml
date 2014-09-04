@@ -27,4 +27,4 @@ resources:
   homepage: https://metacpan.org/module/Test::Mojo::Most
   license: http://dev.perl.org/licenses/
   repository: https://github.com/leejo/test-mojo-most
-version: 0.02
+version: 0.03
