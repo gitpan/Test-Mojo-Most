@@ -1,14 +1,14 @@
 ---
-abstract: 'Combine various L<Test::Mojo> modules into one, a bit like L<Test::Most> but for Mojo'
+abstract: 'Combine various L<Test::Mojo> modules into one, a bit like'
 author:
   - 'Lee Johnson <leejo@cpan.org>'
 build_requires:
-  Mojolicious: 4.24
+  Mojolicious: 5.37
   Test::Most: 0.31
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.8, CPAN::Meta::Converter version 2.132830'
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,9 +21,10 @@ no_index:
 requires:
   Test::Mojo::More: 0.05
   Test::Mojo::Session: 1.01
+  Test::Mojo::Trim: 0.03
 resources:
   bugtracker: https://github.com/leejo/test-mojo-most/issues
   homepage: https://metacpan.org/module/Test::Mojo::Most
   license: http://dev.perl.org/licenses/
   repository: https://github.com/leejo/test-mojo-most
-version: 0.01
+version: 0.02

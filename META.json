@@ -1,10 +1,10 @@
 {
-   "abstract" : "Combine various L<Test::Mojo> modules into one, a bit like L<Test::Most> but for Mojo",
+   "abstract" : "Combine various L<Test::Mojo> modules into one, a bit like",
    "author" : [
       "Lee Johnson <leejo@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.8, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -22,7 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Mojolicious" : "4.24",
+            "Mojolicious" : "5.37",
             "Test::Most" : "0.31"
          }
       },
@@ -34,7 +34,8 @@
       "runtime" : {
          "requires" : {
             "Test::Mojo::More" : "0.05",
-            "Test::Mojo::Session" : "1.01"
+            "Test::Mojo::Session" : "1.01",
+            "Test::Mojo::Trim" : "0.03"
          }
       }
    },
@@ -51,5 +52,5 @@
          "url" : "https://github.com/leejo/test-mojo-most"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
